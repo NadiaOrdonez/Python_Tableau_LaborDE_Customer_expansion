@@ -21,7 +21,7 @@ The analysis will encompass both national (Bundesländer) and regional (NRW) lev
 * The spatial data corresponded to [Bundesland](https://github.com/isellsoap/deutschlandGeoJSON/blob/main/README.md) and [regional](https://www.suche-postleitzahl.org/plz-karte-erstellen) levels and was used in Python and Tableau to create maps.  
 ## Python scripts
 This data analysis project is organized into 7 scripts outlined below:
-* [Step1](01_2024_LaborDE_analysis/03_Scripts/Step1_LD_Project_brief_data_sources_ and_cleaning.ipynb): LD Project brief, data sources, and initial data cleaning
+* [Step1](01_2024_LaborDE_analysis/03_Scripts/Step1_LD_Project_brief_data_sources_and_cleaning.ipynb): LD Project brief, data sources, and initial data cleaning
   * Comprehensive project description, research questions, and data sources.
   * Data wrangling, cleaning and inconsistency checks.
   * Merging of German population regional dataframes.
@@ -42,20 +42,18 @@ This data analysis project is organized into 7 scripts outlined below:
 * [Step 7](01_2024_LaborDE_analysis/03_Scripts/Step7_LD_German_GDP_Time_series_anaylsis.ipynb): LD German GDP time-series analysis
   * Subsetting, wrangling, and cleaning time series data.
   * Decomposition, Dicker Fuller test, Autocorrelation, Stationarizing data.
+
 ChatGPT 3.5 was used to facilitate and speed the data analysis process. 
 
 ## Tableau visuals
 After conducting data analysis and running machine learning models, I utilized Tableau to create compelling visualizations that not only illustrate our findings but also provide robust support for the recommendations outlined in the customer base expansion plan. Within Tableau, I seamlessly integrated individual graphs using dashboards and story features for a comprehensive presentation. Use this [link](https://public.tableau.com/app/profile/nadia.ordonez/viz/GermancompaniesLaborDE/LaborDECustomerexpansion) to access the dashboard.
 
 ## Data-driven recommendations for Customer base expansion 
-Stakekholders are informed about our main Python findings in the [Word report](). The below recommendations are supported by our data analysis process.
-* _Optimized Ad Scheduling:_ To enhance the effectiveness of our targeted marketing campaign, consider scheduling ads during periods with lower order volumes. The analysis indicates that Wednesdays and Thursdays between 23:00 and 06:00 experience the fewest orders on our app.
-* _Strategic Advertising Timing:_ Capitalize on peak user activity and spending by focusing product advertising between 09:00 and 16:00. During these hours, our users spend each hour over 17 million dollars. Aligning marketing efforts with this active period can maximize engagement and sales.
-* _Product Pricing:_ Emphasize mid-range products priced between 5 and 15 dollars, as these have proven to be the most popular among our users.
-* _Targeted Grocery Department Promotion:_ Acknowledge the popularity of certain grocery departments, such as produce, dairy eggs, snacks, beverages, and frozen items, where over 2 million products are ordered in each category. Consider intensifying promotions in these areas or strategizing to boost the visibility of other departments.
-* _Demographic and Regional Insights_:
-  * Launch a loyalty program targeting customers who currently contribute to 33.8% of all app sales. On average, these loyal customers place orders once a week, presenting an opportunity to foster continued engagement and loyalty.
-  * Recognize that customers across all US regions and family statuses exhibit similar app usage frequencies, placing orders every 10 to 11 days on average. However, note that married customers, particularly those older than 40, exhibit higher spending power, contributing to sales exceeding 160 million dollars in our current database. Consider refining marketing approaches to capitalize on these trends.
-  * Our top 3 customer profiles are from a middle-income, encompassing adults with and without kids, and retirees with kids. Here in particular, the customer profile "Adult with kids and middle income" standouts, by surpassing 10 million counts and contributing over $90 million to our total sales of $163 millions. Despite a slightly less frequent ordering pattern, our top 3 profiles exhibit prevalence nationwide, with the Southern states leading in customer counts. To amplify engagement with our key customer base, a targeted marketing campaign focusing on the "Adult with kids and middle income" group is crucial. Tailoring messages and promotions to meet their preferences can further enhance our market share.                                                                                                     
+Stakekholders are informed about our main Python findings in the [Word report](01_2024_LaborDE_analysis/05_Send_to_client/Data_driven_recommendations.pdf). The below recommendations are supported by our data analysis process.
+* Expanding Business to Bavaria. 
+Bavaria has a considerable number of potential laboratory and cancer-related companies. The region's impressive attributes, including a robust GDP and substantial population, make it an enticing prospect for business expansion. Alternatively, consider Baden-Württemberg as another promising Bundesland for business growth. It exhibits similarities to Bavaria, offering a fertile ground for expansion.to meet their preferences can further enhance our market share.
+* Expanding our Local Customer Base.
+Based on the recently released data on registered German companies, 2112 potential laboratory companies and 267 cancer-related companies were identified in NRW. These entities, if not already engaged with our client, LaborDE, present excellent opportunities for us to introduce and promote our diverse product portfolios. The customer base of our customer companies in NRW highlights a slight female-centric focus, making it compelling to expand our offerings with a higher quantity of cancer-related diagnostic products tailored to women's health.
+                                                                         
 ## Project timeline
 This data analysis project was completed within 12 days, using Python for data analysis and visualization, alongside Tableau and Word for stakeholder reporting. 
