@@ -21,7 +21,7 @@ The analysis will encompass both national (Bundesländer) and regional (NRW) lev
 * The spatial data corresponded to [Bundesland](https://github.com/isellsoap/deutschlandGeoJSON/blob/main/README.md) and [regional](https://www.suche-postleitzahl.org/plz-karte-erstellen) levels and was used in Python and Tableau to create maps.  
 ## Python scripts
 This data analysis project is organized into 7 scripts outlined below:
-* [Step1](01_2024_LaborDE_analysis/03_Scripts/Step1_LD_Project_brief_data_sources_and_cleaning.ipynb): LD Project brief, data sources, and initial data cleaning
+* [Step 1](01_2024_LaborDE_analysis/03_Scripts/Step1_LD_Project_brief_data_sources_and_cleaning.ipynb): LD Project brief, data sources, and initial data cleaning
   * Comprehensive project description, research questions, and data sources.
   * Data wrangling, cleaning and inconsistency checks.
   * Merging of German population regional dataframes.
