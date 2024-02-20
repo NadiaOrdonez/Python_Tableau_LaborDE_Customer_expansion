@@ -1,6 +1,8 @@
 # Python_Tableau_LaborDE_Customer_expansion
 This repository showcases Python syntax for data analytics (using `pandas`, `numpy`, and `os`), visualization (`matplotlib.pyplot`, `seaborn`, `scipy`), machine learning (`sklearn`), and forecasting (`statsmodels.api`) in Jupyter Notebook within Anaconda. Focused on enhancing their already successful business, LaborDE, a prominent laboratory supplier based in Nordrhein-Westphalia (NRW), Germany aims to expand their customer base not only in their stronghold of NRW but also for exploring new market opportunities in other Bundesländer.
 
+![North Rhine-Westphalia and Bavaria have a high industrial activity with >400k registered companies](01_2024_LaborDE_analysis/04_Analysis/Visuals/all_de.JPG)
+
 ## Project Overview
 
 ### Motivation
